@@ -5,7 +5,7 @@ const express = require('express');
 const session = require('express-session');
 const app = express();
 
-Uncomment the lines of code  which have been commented below to make the application secure
+// Uncomment the lines of code  which have been commented below to make the application secure
 const helmet = require('helmet')
 const csrf = require('csurf');
 
